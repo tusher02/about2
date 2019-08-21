@@ -1,0 +1,306 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	float: left;
+}
+.about{
+		
+	background-color: #FFFFFF;
+
+}
+.logo h1{
+	font-family: 'Dancing Script', cursive;
+	color: #505050;
+	padding: 80px 0px 10px 30px;
+}
+.menu{
+	padding: 100px 0px 10px 0px;
+}
+.menu span{
+	padding:0px 40px;
+	color: #8DB0BF;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #8DB0BF;
+}
+.brd{
+	float: left;
+	width: 100%;
+}
+.mainunder {
+    border: 3px solid #E4E4E4;
+    width: 100%;
+    display: block;
+}
+.aboutpart2{
+	width: 100%;
+	float: left;
+	background-color: #FFFFFF;
+}
+.about-one h1{
+	padding: 50px 0px 65px 0px;
+}
+.about-one p{
+	text-align: justify;
+	color: #a79b9b;
+
+}
+.parent2{
+	position: relative;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.child4 {
+    position: absolute;
+    top: 10%;
+  	left: -15%;
+}
+.child5 {
+    position: absolute;
+    top: 14%;
+    left: 17%;
+}
+.about-two p{
+	text-align: justify;
+	color: #a79b9b;
+	position: absolute;
+	bottom: 0;
+}
+.fot{
+	width: 100%;
+	float: left;
+	background-color: #F23E2C;
+	margin: 10% 0 0 0;
+
+}
+.fot p {
+    color: white;
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+.logo h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.menu{
+	padding: 10px 0px 20px 0px;
+	display: block;
+	margin:auto;
+	text-align: center;
+}
+.menu span{
+	padding:0px;
+	color: #8DB0BF;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #8DB0BF;
+}
+.brd{
+	float: left;
+	width: 100%;
+}
+.mainunder {
+    border: 3px solid #E4E4E4;
+    width: 100%;
+    display: block;
+}
+.about-one h1 {
+    padding: 17px 0px 4px 0px;
+    text-align: center;
+}
+.about-one p{
+	text-align: justify;
+	color: #a79b9b;
+    font-size: small;
+    padding: 20px 0px 20px 0px;
+}
+.about-p{
+	padding: 0px 0px 50% 0px;
+    font-size: small;
+}
+.aboutpart2{
+	width: 100%;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+.parent2{
+	position: relative;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.child4 {
+    position: absolute;
+    top: -17%;
+    left: 15%;
+    width: 36%;
+}
+.child5 {
+    position: relative;
+    
+    left: 28%;
+    
+    width: 47%;
+}
+.about-two p {
+    text-align: justify;
+    color: #a79b9b;
+    font-size: small;
+    position: absolute;
+    top: -268%;
+    width: 94%;
+}
+.fot{
+	width: 100%;
+	float: left;
+	background-color: #F23E2C;
+	margin-bottom: 0;
+
+}
+.fot p {
+    color: white;
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+}
+
+}
+
+
+@media (min-width: 500.01px) and (max-width: 768px){
+.logo h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.menu{
+	padding: 10px 0px 20px 0px;
+	display: block;
+	margin:auto;
+	text-align: center;
+}
+.menu span{
+	padding:0px;
+	color: #8DB0BF;
+}
+
+
+.about-one h1 {
+    padding: 17px 0px 4px 0px;
+    text-align: center;
+}
+.about-one p{
+	text-align: justify;
+	color: #a79b9b;
+	
+
+}
+.about-p{
+	padding: 0px 0px 50% 0px;
+	
+}
+
+
+.parent2{
+	position: relative;
+}
+
+.child4 {
+    position: absolute;
+    top: -17%;
+    left: 15%;
+    width: 36%;
+}
+.child5 {
+    position: relative;
+    
+    left: 28%;
+    
+    width: 47%;
+}
+.about-two p {
+    text-align: justify;
+    color: #a79b9b;
+    position: absolute;
+    top: -268%;
+    width: 94%;
+    
+}
+.fot{
+	width: 100%;
+	float: left;
+	background-color: #F23E2C;
+	margin-bottom: 0;
+
+}
+.fot p {
+    color: white;
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+}
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px){
+.logo h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 34px;
+    padding: 20px 0px 20px 0px;
+}
+.menu{
+    padding: 25px 0px 6px 0px;
+	display: block;
+	margin:auto;
+	text-align: center;
+}
+.menu span{
+	padding:0px;
+	color: #8DB0BF;
+}
+
+
+.about-one h1 {
+    padding: 17px 0px 0px;
+    text-align: center;
+}
+.child4 {
+    position: absolute;
+    top: 10%;
+    left: -14%;
+}
+.child5 {
+    position: absolute;
+    top: 20%;
+    left: 26%;
+}
+}
+
